@@ -119,7 +119,7 @@ rmin=2;
 rmax=50;
 
 
-%Ltx_i=unifrnd(rmin, rmax, 1,K);%comprimento das fibras tx
+%Ltx_i=unifrnd(rmin, rmax, 1,K);% Length of the fibers to the star coupler, Tx
 Ltx_i= [48.8779
    26.9518
    40.0057
@@ -137,7 +137,7 @@ Ltx_i= [48.8779
    46.7481
    29.7142]';
 
-%Lrx_i=unifrnd(rmin, rmax, 1, K);%comprimento das fibras rx
+%Lrx_i=unifrnd(rmin, rmax, 1, K);% Length of the fibers to the star coupler, Rx
 Lrx_i=[32.0586
     4.8504
    45.3027
